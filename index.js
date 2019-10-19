@@ -220,6 +220,7 @@ for (let role in roles) {
           roles[role].claims[word] = 0
         }
         roles[role].claims[word] += roles[role].phrases[i].count
+        //edited to correct the mistake of using the number of variations for each claim instead of summing the total of all variations
       }
     }
     //console.log(`${roles[role].phrases[i].count}`.yellow, `${roles[role].phrases[i].phrase}`.green)
