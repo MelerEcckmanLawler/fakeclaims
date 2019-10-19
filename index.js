@@ -219,7 +219,7 @@ for (let role in roles) {
         if (roles[role].claims[word] === undefined) {
           roles[role].claims[word] = 0
         }
-        roles[role].claims[word]++
+        roles[role].claims[word] += roles[role].phrases[i].count
       }
     }
     //console.log(`${roles[role].phrases[i].count}`.yellow, `${roles[role].phrases[i].phrase}`.green)
