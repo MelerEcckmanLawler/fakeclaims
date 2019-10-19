@@ -1,4 +1,4 @@
-const data = require('./rolePhrases.json')
+const data = require('./claims.json')
 
 String.prototype.capitalize = function() {
   return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
